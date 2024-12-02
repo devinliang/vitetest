@@ -3,18 +3,20 @@
   "version": "1.0.0",
   "description": "測試 vite 建立網站",
   "main": "index.js",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "sass": "^1.81.0",
     "vite": "^5.4.11"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
   }
 }
